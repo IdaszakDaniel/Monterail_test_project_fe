@@ -1,0 +1,52 @@
+{
+  "users":[
+    {
+      "name": "Dr. Halima",
+      "time": 5,
+      "lastSeen": "Saturday afternoon",
+      "activity": 2
+    },
+   {
+      "name": "Eva",
+      "time": 2,
+      "lastSeen": "Sunday morning",
+      "activity": 1
+    },
+    {
+      "name": "Patricia",
+      "time": 10,
+      "lastSeen": "Saturday afternoon",
+      "activity": 3
+    },
+    {
+      "name": "David",
+      "time": 3,
+      "lastSeen": "Friday afternoon",
+      "activity": 2
+    },
+    {
+      "name": "Dr. Anna",
+      "time": 12,
+      "lastSeen": "Saturday morning",
+      "activity": 3
+    },
+    {
+      "name": "Andrew",
+      "time": 3,
+      "lastSeen": "Saturday afternoon",
+      "activity": 2
+    },
+    {
+      "name": "Patrick",
+      "time": 2,
+      "lastSeen": "Saturday morning",
+      "activity": 1
+    },
+    {
+      "name": "Joseph",
+      "time": 9,
+      "lastSeen": "Monday afternoon",
+      "activity": 2
+    }
+  ]
+}

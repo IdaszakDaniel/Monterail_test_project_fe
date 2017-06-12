@@ -1,0 +1,269 @@
+{
+  "questions":[
+    {
+      "author": "Eva",
+      "question": "Will insulin make my patient gain weight?",
+      "related": 1,
+      "type": "hot",
+      "answers": [
+        {
+          "author": "Patricia",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis.",
+          "comments": [
+            {
+              "author": "David",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis."
+            },
+            {
+              "author": "Dr. Anna",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis."
+            }
+          ]
+        },
+        {
+          "author": "Dr. Anna",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis mollitia, qui, deleniti dolore velit aliquam ex modi, doloremque illum quo officia iusto tenetur fugit libero voluptate ratione voluptatem dolor expedita esse vero quia! Commodi, aut.",
+          "comments": ""
+        }
+      ]  
+    },
+    {
+      "author": "Andrew",
+      "question": "Vegan diet in diabetes treatment?",
+      "related": 3,
+      "type": "recent",
+      "answers": [
+        {
+          "author": "Patrick",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur.",
+          "comments": [
+            {
+              "author": "David",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit porro cum modi, beatae assumenda amet, at quidem eligendi inventore, quia cupiditate incidunt consectetur velit minima harum impedit omnis. Totam, repellendus."
+            }
+          ]
+        },
+        {
+          "author": "Joseph",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima?",
+          "comments": ""
+        }
+      ]  
+    },
+        {
+      "author": "Eva",
+      "question": "Will insulin make my patient gain weight?",
+      "related": 1,
+      "type": "hot",
+      "answers": [
+        {
+          "author": "Patricia",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis.",
+          "comments": [
+            {
+              "author": "David",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis."
+            }
+          ]
+        },
+        {
+          "author": "Dr. Anna",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis mollitia, qui, deleniti dolore velit aliquam ex modi, doloremque illum quo officia iusto tenetur fugit libero voluptate ratione voluptatem dolor expedita esse vero quia! Commodi, aut.",
+          "comments": ""
+        }
+      ]  
+    },
+    {
+      "author": "Andrew",
+      "question": "Vegan diet in diabetes treatment?",
+      "related": 3,
+      "type": "recent",
+      "answers": [
+        {
+          "author": "Patrick",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur.",
+          "comments": [
+            {
+              "author": "David",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit porro cum modi, beatae assumenda amet, at quidem eligendi inventore, quia cupiditate incidunt consectetur velit minima harum impedit omnis. Totam, repellendus."
+            }
+          ]
+        },
+        {
+          "author": "Joseph",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima?",
+          "comments": ""
+        }
+      ]  
+    },
+        {
+      "author": "Eva",
+      "question": "Will insulin make my patient gain weight?",
+      "related": 1,
+      "type": "hot",
+      "answers": [
+        {
+          "author": "Patricia",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis.",
+          "comments": [
+            {
+              "author": "David",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis."
+            }
+          ]
+        },
+        {
+          "author": "Dr. Anna",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis mollitia, qui, deleniti dolore velit aliquam ex modi, doloremque illum quo officia iusto tenetur fugit libero voluptate ratione voluptatem dolor expedita esse vero quia! Commodi, aut.",
+          "comments": ""
+        }
+      ]  
+    },
+    {
+      "author": "Andrew",
+      "question": "Vegan diet in diabetes treatment?",
+      "related": 3,
+      "type": "recent",
+      "answers": [
+        {
+          "author": "Patrick",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur.",
+          "comments": [
+            {
+              "author": "David",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit porro cum modi, beatae assumenda amet, at quidem eligendi inventore, quia cupiditate incidunt consectetur velit minima harum impedit omnis. Totam, repellendus."
+            }
+          ]
+        },
+        {
+          "author": "Joseph",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima?",
+          "comments": ""
+        }
+      ]  
+    },
+        {
+      "author": "Eva",
+      "question": "Will insulin make my patient gain weight?",
+      "related": 1,
+      "type": "hot",
+      "answers": [
+        {
+          "author": "Patricia",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis.",
+          "comments": [
+            {
+              "author": "David",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis."
+            }
+          ]
+        },
+        {
+          "author": "Dr. Anna",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis mollitia, qui, deleniti dolore velit aliquam ex modi, doloremque illum quo officia iusto tenetur fugit libero voluptate ratione voluptatem dolor expedita esse vero quia! Commodi, aut.",
+          "comments": ""
+        }
+      ]  
+    },
+    {
+      "author": "Andrew",
+      "question": "Vegan diet in diabetes treatment?",
+      "related": 3,
+      "type": "recent",
+      "answers": [
+        {
+          "author": "Patrick",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur.",
+          "comments": [
+            {
+              "author": "David",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit porro cum modi, beatae assumenda amet, at quidem eligendi inventore, quia cupiditate incidunt consectetur velit minima harum impedit omnis. Totam, repellendus."
+            }
+          ]
+        },
+        {
+          "author": "Joseph",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima?",
+          "comments": ""
+        }
+      ]  
+    },
+        {
+      "author": "Eva",
+      "question": "Will insulin make my patient gain weight?",
+      "related": 1,
+      "type": "hot",
+      "answers": [
+        {
+          "author": "Patricia",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis.",
+          "comments": [
+            {
+              "author": "David",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur quibusdam animi fugiat pariatur debitis."
+            }
+          ]
+        },
+        {
+          "author": "Dr. Anna",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis mollitia, qui, deleniti dolore velit aliquam ex modi, doloremque illum quo officia iusto tenetur fugit libero voluptate ratione voluptatem dolor expedita esse vero quia! Commodi, aut.",
+          "comments": ""
+        }
+      ]  
+    },
+    {
+      "author": "Andrew",
+      "question": "Vegan diet in diabetes treatment?",
+      "related": 3,
+      "type": "recent",
+      "answers": [
+        {
+          "author": "Patrick",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima, quisquam consectetur.",
+          "comments": [
+            {
+              "author": "David",
+              "date": "2017-06-08",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit porro cum modi, beatae assumenda amet, at quidem eligendi inventore, quia cupiditate incidunt consectetur velit minima harum impedit omnis. Totam, repellendus."
+            }
+          ]
+        },
+        {
+          "author": "Joseph",
+          "date": "2017-06-08",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis dolorum obcaecati minima?",
+          "comments": ""
+        }
+      ]  
+    }
+  ]
+}

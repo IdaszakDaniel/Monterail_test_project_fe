@@ -1,0 +1,274 @@
+<button ng-click="c.parent.cba()"><- Back</button>
+
+<div class="div" ng-repeat="topic in c.topics track by $index">
+
+		<main> 
+			<div class="container allQuestions">
+
+				<div class="row allQuestions__question">
+					<div class="col-md-2 col-sm-2 col-xs-2 question__imageBox">
+						<a data-toggle="modal" data-target="#myModal" ng-click="c.openModal(topic.author)"><img class="imageBox__image" src="assets/person.gif" alt="person"></a>
+					</div>
+					<div class="col-md-8 col-sm-8 col-xs-10 question__textBox">
+						<a class="textBox__text" data-toggle="modal" data-target="#myModal" ng-click="c.openModal(topic.author)">{{topic.author}} <span class="textBox__text--gray">is asking:</span></a>
+						<p class="textBox__text">{{topic.question}}</p>
+					</div>
+					<div class="hidden-xs col-sm-2 question__followBox">
+						<a class="followBox__link" href="#">unfollow</a>
+					</div>
+				</div>
+
+				<div class="row allQuestions__response">
+					<div class="col-xs-12">
+						<div class="row">
+							<div class="hidden-xs col-md-2 col-sm-2  response__asked">
+							</div>
+							<div class="col-xs-12 col-sm-7">
+								<p class="response__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore illo reiciendis placeat eum rerum, itaque quasi amet maxime. Odio culpa vel nobis dolorum ratione quibusdam, nesciunt inventore fugiat tenetur eligendi? Nulla asperiores sint illum, explicabo, dolor in aperiam harum deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, voluptas.</p>
+							</div>
+							<div class="col-xs-12 col-sm-3">
+								<div class="col-xs-6 hidden-sm hidden-md hidden-lg">
+									<a class="response__unfollow" href="#">unfollow</a>
+								</div>
+								<div class="col-xs-6 col-sm-12 response__upvotes">
+									<vote></vote>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 responseFooter">
+						<button class="responseFooter__button">GIVE new answer</button>
+						<p class="responseFooter__text"><span class="responseFooter__text--number">2</span> peers already answered Eva</p>
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+
+
+
+
+
+
+	<div ng-repeat="answer in topic.answers track by $index">
+<!-- 	<p>auth: {{x.author}}</p>
+<p>date: {{x.date}}</p>
+<p>text: {{x.text}}</p> -->
+
+		<div class="container comments">
+			<div class="row">
+				<div class="hidden-xs col-sm-2 comments__imageBox">
+					<a data-toggle="modal" data-target="#myModal" ng-click="c.openModal(answer.author)"><img class="imageBox__image" src="assets/person.gif" alt=""></a>
+				</div>
+				<div class="col-xs-12 col-sm-10 comments__content">
+					<div class="col-xs-2 hidden-sm hidden-md hidden-lg content__imageBox">
+						<a data-toggle="modal" data-target="#myModal" ng-click="c.openModal(answer.author)"><img class="imageBox__image" src="assets/person.gif" alt=""></a>
+					</div>
+					<div class="col-xs-10 content__container">
+						<a class="container__text container__name" data-toggle="modal" data-target="#myModal" ng-click="c.openModal(answer.author)">{{answer.author}}</a>
+						<p class="container__text container__text--gray">commented it</p>
+						<p class="container__text">·</p>
+						<p class="container__text container__time">{{answer.date}}</p>
+					</div>
+					<div class="col-xs-12 col-sm-9">
+						<p class="content__text">{{answer.text}}</p>
+					</div>
+					<div class="content__vote">
+						<div class="div vote__container">
+							<vote></vote>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div ng-repeat="comment in answer.comments">
+			<!-- <p>auth: {{y.author}}</p>
+			<p>date: {{y.date}}</p>
+			<p>text: {{y.text}}</p> -->
+
+
+					<div class="container">
+			<div class="row response">
+				<div class="hidden-xs col-sm-2 col-sm-offset-2 response__imageBox">
+					<a data-toggle="modal" data-target="#myModal" ng-click="c.openModal(comment.author)"><img class="imageBox__image" src="assets/person.gif" alt=""></a>
+				</div>
+				<div class="col-xs-12 col-sm-8 response__content">
+					<div class="col-xs-2 hidden-sm hidden-md hidden-lg content__imageBox">
+						<a data-toggle="modal" data-target="#myModal" ng-click="c.openModal(comment.author)"><img class="imageBox__image" src="assets/person.gif" alt=""></a>
+					</div>
+					<div class="col-xs-10 content__container">
+						<a class="container__text container__name" data-toggle="modal" data-target="#myModal" ng-click="c.openModal(comment.author)">{{comment.author}}</a>
+						<p class="container__text container__text--gray">commented it</p>
+						<p class="container__text">·</p>
+						<p class="container__text container__time">{{comment.date}}</p>
+					</div>
+					<div class="col-xs-12 col-sm-8">
+						<p class="content__text">{{comment.text}}</p>
+					</div>
+					<div class="content__vote">
+						<div class=" vote__container">
+							<vote></vote>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row responseFooter">
+				<div class="col-xs-12">
+					<button class="responseFooter__button">CONTINUE discussion</button>
+				</div>
+			</div>
+		</div>
+
+		</div>
+	<br>
+	</div>
+</div>
+
+
+
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-admin" role="document">
+		    <div class="modal-content">
+		    	<!-- Modal -->
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+			
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 profile">
+								<a data-toggle="modal" data-target="#myModal" ng-click="c.openModal(comment.author)"><img class="profile__image" src="assets/person.gif" alt="DR. halima"></a>
+								<h4 class="profile__name">{{c.UserName}}</h4>
+								<div class="col-xs-12 col-sm-4 col-md-4">
+									<p class="profile__info profile__info--title">member for</span></p>
+									<p class="profile__info">{{c.UserTime}} months</p>
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-4">
+									<p class="profile__info profile__info--title">last seen</span></p>
+									<p class="profile__info">{{c.UserLastSeen}}</p>
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-4">
+									<p class="profile__info profile__info--title">activity level</span>{{c.UserActivity}}</p>
+									<stars></stars>
+								</div>
+							</div>
+							<hr class="profile__line">
+						</div>
+						<div class="row">
+							<div class="col-xs-12 about">
+								<button class="about__button"><</button>
+								<h3 class="about__title">How it all started</h3>
+								<button class="about__button">></button>
+								<p class="about__text">that's where we have been <br>these 5 months ago</p>
+								<div class="row">
+									<div class="col-xs-6  col-sm-3 col-md-3">
+										<div class="about__square">
+											<div class="square__background square__background--first"></div>
+											<div class="square__sign square__sign--first">
+												<p class="sign__number">46</p>
+												<p class="sign__text">peers</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-6 col-sm-3 col-md-3">
+										<div class="about__square">
+											<div class="square__background square__background--second"></div>
+											<div class="square__sign square__sign--second">
+												<p class="sign__number">29</p>
+												<p class="sign__text">discussions</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-6 col-sm-3 col-md-3">
+										<div class="about__square">
+											<div class="square__background square__background--third"></div>
+											<div class="square__sign square__sign--third">
+												<p class="sign__number">19</p>
+												<p class="sign__text">findings</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-6 col-sm-3 col-md-3">
+										<div class="about__square">
+											<div class="square__background square__background--fourth"></div>
+											<div class="square__sign square__sign--fourth">
+												<p class="sign__number">10</p>
+												<p class="sign__text">questions</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row joined">
+							<div class="col-xs-12">
+								<p class="joined__title">who joined the platform</p>
+								<p class="joined__title"> that same period</p>
+							</div>
+							<div class="col-xs-4">
+								<div class="joined__panel">
+									<img class="panel__image" src="assets/person.gif" alt="">	
+								</div>
+								<h4 class="joined__name">S.E.N Waweru</h4>
+							</div>
+							<div class="col-xs-4">
+								<div class="joined__panel">
+									<img class="panel__image"  src="assets/person.gif" alt="">
+								</div>
+								<h4 class="joined__name">Patricia</h4>
+							</div>
+							<div class="col-xs-4">
+								<div class="joined__panel">
+									<img class="panel__image"  src="assets/person.gif" alt="">
+								</div>
+								<h4 class="joined__name">Joseph Aluoch</h4>
+							</div>
+						</div>
+					</div>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 discussion">
+								<p class="discussion__title">the hottest discussion these days</p>
+								<img class="discussion__image" src="assets/person.gif" alt="">
+									<div class="discussion__panel">
+										<div class="row">
+											<p class="panel__text">Andrew <span class="panel__text--gray">found the guardian article</span></p>
+											<p class="panel__text panel__text--big">Vegan diet to stop diabetes progress</p>
+										</div>
+										<div class="row">
+											<div class="col-xs-6 col-sm-3 col-md-3">
+												<p class="panel__info"><span class="panel__info--number">3</span> related discussion</p>
+											</div>
+											<div class="col-xs-6 col-sm-3 col-md-3">
+												<p class="panel__info"><span class="panel__info--number">3</span> conversations</p>
+											</div>
+											<div class="col-xs-6 col-sm-3 col-md-3">
+												<p class="panel__info"><span class="panel__info--number">6</span> peers involved</p>
+											</div>
+											<div class="col-xs-6 col-sm-3 col-md-3">
+												<p class="panel__info"><span class="panel__info--number">19</span> upvotes</p>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+		    </div>
+		   </div>
+		</div>
