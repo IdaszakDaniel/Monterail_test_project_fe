@@ -5,7 +5,7 @@ export default class GetJson {
 
   getData() {
     let request = {
-      url: 'users.JSON',
+      url: 'users.json',
       method: 'GET',
     };
     return this._$http(request).then((res) => res.data);
