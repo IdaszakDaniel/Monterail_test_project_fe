@@ -1,6 +1,6 @@
 import angular from 'angular';
 
-import topicsList from './topicsList';
+import topicsList from './TopicsList';
 import UsersList from './UsersList';
 import GetJson from './GetJson';
 import GetUsers from './GetUsers';
